@@ -27,7 +27,7 @@ export default function Navbar() {
       <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`} role="navigation" aria-label="Main navigation">
         <div className="navbar__inner container container--wide">
           <Link to="/" className="navbar__logo" aria-label="TORSA Consulting Home">
-            <img src="/torsa logo.png" alt="TORSA Consulting" className="navbar__logo-img" />
+            <img src="/torsa-logo.png" alt="TORSA Consulting" className="navbar__logo-img" />
             <span className="navbar__logo-text">TORSA</span>
           </Link>
           <div className="navbar__links" role="menubar">
