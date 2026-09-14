@@ -1,0 +1,379 @@
+{
+  "site": {
+    "name": "TORSA Consulting",
+    "positioning": "Your Technology Journey Partner",
+    "logo": "torsa logo.png",
+    "primaryAudience": "Executives and decision-makers",
+    "theme": {
+      "light": "Professional, bright, high-contrast corporate interface.",
+      "dark": "Premium, restrained dark interface with strong readability."
+    }
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Services",
+      "path": "/services"
+    },
+    {
+      "label": "DimenServe GRC",
+      "path": "/dimenserve-grc"
+    },
+    {
+      "label": "Training",
+      "path": "/training"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "home": {
+    "hero": {
+      "title": "Technology that moves your organisation forward",
+      "body": "TORSA Consulting is your technology journey partner. We help organisations across Africa turn business ambition into practical technology strategy, secure governance, effective delivery and sustainable capability.",
+      "primaryCta": "Start a conversation",
+      "secondaryCta": "Explore our services"
+    },
+    "positioning": {
+      "title": "Your Technology Journey Partner",
+      "body": "TORSA Consulting is a technology advisory, transformation and delivery firm that helps organizations use technology with greater clarity, confidence and purpose."
+    },
+    "coreServicePillars": [
+      "Technology strategy and executive advisory",
+      "Enterprise architecture and digital transformation",
+      "AI governance and responsible adoption",
+      "Information security, technology governance and ISO 27001",
+      "DimenServe GRC, TORSA’s proprietary governance, risk and compliance platform",
+      "Agile, Lean and product-delivery transformation",
+      "Bespoke software and digital solution development",
+      "Technology operations and IT service management",
+      "Professional training and capability development",
+      "Specialist resource augmentation and managed delivery teams"
+    ],
+    "whyTorsa": {
+      "title": "Our Difference",
+      "items": [
+        {
+          "title": "Connect strategy and execution",
+          "body": "We connect strategy and execution by helping clients make the right technology decisions, then stay involved to turn those decisions into operating models, roadmaps, programs, platforms and lasting capability."
+        },
+        {
+          "title": "Senior expertise without unnecessary complexity",
+          "body": "We bring senior expertise without unnecessary complexity by combining executive-level thinking with a practical delivery mindset. We focus on what matters, create clarity and help clients make steady progress."
+        },
+        {
+          "title": "Work with, not around, your teams",
+          "body": "We work with, not around, your teams by championing a collaborative approach. We work alongside leadership, internal teams and delivery partners to transfer knowledge, strengthen ownership and build confidence."
+        },
+        {
+          "title": "Flexible ways to engage",
+          "body": "We offer flexible ways to engage by encouraging clients to work with us through focused assessments, fixed-scope projects, advisory retainers, transformation programs, training, managed delivery squads or specialist resource augmentation."
+        }
+      ]
+    },
+    "deliveryModel": "TORSA is committed to delivering technology outcomes that are practical, secure, scalable and aligned to the client’s real operating environment.",
+    "finalCta": {
+      "title": "Let’s Start the Conversation",
+      "body": "Every organization is at a different point in its technology journey. Whether you are defining a roadmap, strengthening security, digitizing governance, building a solution or scaling your delivery capability, TORSA can help you take the next practical step.",
+      "cta": "Talk to TORSA"
+    }
+  },
+  "about": {
+    "title": "About TORSA Consulting",
+    "subtitle": "Your Technology Journey Partner",
+    "body": "TORSA Consulting is a technology advisory, transformation and delivery firm that helps organizations use technology with greater clarity, confidence and purpose.",
+    "supportingBody": "We work with executives, boards, technology leaders and delivery teams to connect business ambition with practical technology outcomes. We help clients shape strategy, establish governance, design solutions, lead implementation, build internal capability and deliver sustainable improvement.",
+    "whatWeBelieve": "Technology has the greatest impact when it is connected to business priorities, owned by capable people and supported by practical governance.",
+    "beliefBody": "TORSA helps organisations make confident technology investments, translate strategy into effective delivery, and build the capability needed to sustain long-term success. We bring together strategic thinking and hands-on delivery to help clients move from complexity to clear, measurable progress.",
+    "whatWeDo": [
+      "Technology strategy and executive advisory",
+      "Enterprise architecture and digital transformation",
+      "AI governance and responsible adoption",
+      "Information security, technology governance and ISO 27001",
+      "DimenServe GRC, TORSA’s proprietary governance, risk and compliance platform",
+      "Agile, Lean and product-delivery transformation",
+      "Bespoke software and digital solution development",
+      "Technology operations and IT service management",
+      "Professional training and capability development",
+      "Specialist resource augmentation and managed delivery teams"
+    ],
+    "experience": {
+      "body": "Since its founding in the year 2008, TORSA Consulting has built a strong record of technology advisory, transformation leadership and solution delivery for its clients.",
+      "leadership": "TORSA is founder-led by Vimal Sharma, a technology transformation leader with more than 25 years of experience across enterprise technology, digital transformation, information security, governance, Agile delivery, service management, product development and technology leadership.",
+      "sectors": "TORSA’s experience has been built through executive advisory, consulting, program leadership and solution delivery across financial services, telecommunications, insurance, infrastructure, education, engineering and public-sector environments.",
+      "work": "Our work includes technology carve-outs, independent ICT operating-model establishment, enterprise architecture, cloud and Microsoft 365 transformation, ISO 27001 readiness, GRC digitization, Lean-Agile transformation, IT service management and bespoke software product development."
+    },
+    "commitment": "TORSA is committed to delivering technology outcomes that are practical, secure, scalable and aligned to the client’s real operating environment.",
+    "successDefinition": "We measure success by more than a completed project. Success means clearer leadership decisions, stronger governance, capable teams, improved services and technology that enables the organization to move forward.",
+    "aboutMetrics": [
+      {
+        "label": "Years of experience",
+        "value": "00+"
+      },
+      {
+        "label": "Projects delivered",
+        "value": "00+"
+      },
+      {
+        "label": "Countries / markets",
+        "value": "00"
+      },
+      {
+        "label": "Specialist capability areas",
+        "value": "00+"
+      }
+    ]
+  },
+  "services": [
+    {
+      "slug": "technology-strategy-and-transformation-advisory",
+      "title": "Technology Strategy and Transformation Advisory",
+      "headline": "Turn technology ambition into a practical plan",
+      "body": "Technology should enable growth, resilience and better decisions. TORSA helps executive teams translate business priorities into clear technology strategy, target operating models and delivery roadmaps.",
+      "supportingBody": "We bring independent senior-level perspective, hands-on transformation experience and practical delivery discipline to complex technology decisions.",
+      "whatWeDo": [
+        "CIO and CTO advisory",
+        "Technology strategy and multi-year roadmaps",
+        "Enterprise architecture and target-state technology blueprints",
+        "Digital transformation planning",
+        "Technology operating-model design",
+        "Technology carve-out and separation programs",
+        "Investment prioritization and portfolio governance",
+        "Technology due diligence and program recovery"
+      ],
+      "outcome": "A clear technology direction, aligned leadership, prioritized investments and a realistic route from strategy to execution.",
+      "cta": "Contact Us to start with a Technology Direction Sprint."
+    },
+    {
+      "slug": "fractional-cio-and-technology-leadership-partner",
+      "title": "Fractional CIO and Technology Leadership Partner",
+      "headline": "Senior technology leadership when you need it",
+      "body": "Not every organisation needs or is ready for a full-time CIO or CTO. TORSA provides experienced, flexible technology leadership for executives, boards and management teams that need strategic guidance and stronger technology oversight.",
+      "supportingBody": "We become a trusted leadership partner, helping you make sound technology decisions while strengthening internal capability.",
+      "whatWeDo": [
+        "Executive and board technology advisory",
+        "Technology strategy and roadmap oversight",
+        "Technology investment and vendor-management support",
+        "Program and portfolio governance",
+        "Technology-risk and security oversight",
+        "Leadership reporting and decision support",
+        "Interim CIO, CTO or technology-director support"
+      ],
+      "outcome": "Confident executive decision-making, stronger technology governance and access to experienced leadership without the overhead of a permanent executive appointment.",
+      "cta": "Contact Us to discuss a flexible technology leadership retainer."
+    },
+    {
+      "slug": "information-security-and-iso-27001",
+      "title": "Information Security and ISO 27001",
+      "headline": "Build trust through stronger information security",
+      "body": "Information security is a business responsibility. TORSA helps organisations establish practical security governance, reduce risk and prepare for ISO 27001:2022 certification or client assurance requirements.",
+      "supportingBody": "Our approach connects security controls to real operational processes, leadership accountability and measurable business resilience.",
+      "whatWeDo": [
+        "Information-security maturity assessments",
+        "ISO 27001:2022 readiness and implementation support",
+        "ISMS frameworks, policies and control design",
+        "Technology-risk and third-party-risk management",
+        "Security architecture and Microsoft 365 security baselines",
+        "Identity and access governance",
+        "Business continuity, backup, recovery and information-protection governance",
+        "Security awareness and capability building",
+        "Virtual CISO advisory"
+      ],
+      "outcome": "A practical, evidence-based security framework that improves resilience, strengthens client confidence and supports certification readiness.",
+      "cta": "Contact Us to request an information-security or ISO 27001 readiness assessment."
+    },
+    {
+      "slug": "enterprise-technology-and-service-management",
+      "title": "Enterprise Technology and Service Management",
+      "headline": "Create a technology environment that performs reliably",
+      "body": "TORSA helps organisations establish, strengthen and scale the technology foundations that keep the business running. We combine architecture, service-management and delivery expertise to improve operational control and user experience.",
+      "whatWeDo": [
+        "IT service-management maturity assessments",
+        "Incident, change, problem and asset-management design",
+        "Service catalogues, SLAs and OLAs",
+        "Technology operations and service-governance design",
+        "Cloud, digital workplace and Microsoft 365 transformation advisory",
+        "Application, infrastructure, data and integration architecture",
+        "Technology vendor selection and RFP/RFI support",
+        "Implementation oversight and transition management",
+        "Continual service-improvement frameworks"
+      ],
+      "outcome": "More reliable services, clearer ownership, improved operational visibility and technology operations that support rather than slow down the business.",
+      "cta": "Contact Us to assess your technology-service maturity."
+    },
+    {
+      "slug": "agile-lean-and-product-delivery-transformation",
+      "title": "Agile, Lean and Product Delivery Transformation",
+      "headline": "Improve delivery flow without losing control",
+      "body": "TORSA helps organisations improve how business and technology teams plan, prioritise and deliver work. Our approach combines SAFe, Agile, Lean Portfolio Management and product-delivery practices with governance that works in the real world.",
+      "whatWeDo": [
+        "SAFe and Lean-Agile transformation advisory",
+        "Agile delivery and maturity assessments",
+        "Lean Portfolio Management and value-stream design",
+        "Agile operating-model and delivery-governance design",
+        "ART formation and PI Planning support",
+        "Executive, product-leader and delivery-team coaching",
+        "Product ownership, backlog management and prioritization",
+        "Built-In Quality, DevOps and continual-improvement practices",
+        "Agile Centre of Excellence development"
+      ],
+      "outcome": "Better alignment between strategy and delivery, improved predictability, faster learning and stronger product and programme outcomes.",
+      "cta": "Contact Us to accelerate your Agile and delivery transformation."
+    },
+    {
+      "slug": "bespoke-software-and-digital-solution-development",
+      "title": "Bespoke Software and Digital Solution Development",
+      "headline": "Build the solution your business actually needs",
+      "body": "When off-the-shelf systems cannot address a critical business need, TORSA brings together business advisory, solution architecture and an experienced development team to create practical digital solutions.",
+      "supportingBody": "We work from problem definition through design, development, deployment and ongoing improvement.",
+      "whatWeDo": [
+        "Custom web, mobile and enterprise application development",
+        "Workflow automation and process digitization",
+        "Business portals, intranets and self-service platforms",
+        "Integration solutions, APIs and data exchange",
+        "Management dashboards and reporting solutions",
+        "Product discovery and user-experience design",
+        "SaaS product development and multi-client platforms",
+        "Quality assurance, testing, deployment and support"
+      ],
+      "outcome": "A scalable, supportable solution that addresses a defined business problem and is designed for adoption, integration and future growth.",
+      "cta": "Contact Us to talk to us about your next digital solution."
+    },
+    {
+      "slug": "specialist-resource-augmentation",
+      "title": "Specialist Resource Augmentation",
+      "headline": "Add the capability your team needs",
+      "body": "TORSA provides skilled technology and management professionals for transformation programmes, projects and operational teams. Whether you need one specialist, a delivery squad or a blended TORSA-client team, we help you access capability aligned to your immediate requirement.",
+      "resourceAreas": [
+        "Enterprise and solution architecture",
+        "Program and project management",
+        "Business analysis and product ownership",
+        "Information security, GRC and ISO specialists",
+        "Agile coaches, Scrum Masters and SAFe practitioners",
+        "IT service management and service delivery",
+        "Software development, QA and testing",
+        "Data, cloud, infrastructure and Microsoft 365",
+        "PMO, vendor management and technology procurement"
+      ],
+      "engagementOptions": [
+        "Project-based specialist placement",
+        "Fixed-term resource augmentation",
+        "Part-time advisory support",
+        "Managed delivery squads",
+        "Blended client and TORSA teams"
+      ],
+      "outcome": "Faster access to capable people, flexible delivery capacity and less risk than permanent hiring for time-bound needs.",
+      "cta": "Contact Us to share your capability requirement with TORSA."
+    },
+    {
+      "slug": "training-and-professional-capability-development",
+      "title": "Training and Professional Capability Development",
+      "headline": "Build practical capability that lasts",
+      "body": "TORSA delivers targeted learning for leaders, technology professionals and delivery teams. Our programmes focus on real-world application, not theory alone, giving participants tools they can use immediately.",
+      "safeTraining": "TORSA provides SAFe foundational and advanced courses through its SAFe Practice Consultant capability. Training can be delivered for individual professionals, teams or enterprise transformation programmes.",
+      "bootCamps": {
+        "title": "TORSA Boot Camps",
+        "body": "Short, practical boot camps tailored to the demands of technology and management professionals.",
+        "topics": [
+          "Technology strategy for leaders",
+          "Enterprise architecture essentials",
+          "Information security and ISO 27001 leadership",
+          "Technology governance, risk and compliance",
+          "Agile leadership and product ownership",
+          "IT service management and operational excellence",
+          "AI governance and responsible adoption",
+          "Technology program and vendor management"
+        ]
+      },
+      "deliveryFormats": [
+        "Public courses",
+        "In-house corporate training",
+        "Executive workshops",
+        "Half-day briefings",
+        "One- to three-day boot camps",
+        "Multi-module capability academies"
+      ],
+      "outcome": "More confident leaders, stronger internal capability and practical methods that improve how teams make decisions and deliver work.",
+      "cta": "Contact Us to enroll in a SAFe training or design a training program for your team."
+    },
+    {
+      "slug": "ai-governance-and-responsible-adoption",
+      "title": "AI Governance and Responsible Adoption",
+      "headline": "Adopt AI with purpose, controls and confidence",
+      "body": "AI creates meaningful opportunities, but value depends on thoughtful adoption, trusted data, security and accountable governance. TORSA helps organisations identify practical use cases and establish the guardrails needed for responsible adoption.",
+      "whatWeDo": [
+        "AI readiness and opportunity assessments",
+        "AI strategy and adoption roadmaps",
+        "Use-case prioritization",
+        "AI governance principles and policy frameworks",
+        "Data governance, security and ethical-use guardrails",
+        "No-code AI and workflow-automation use cases",
+        "Executive and employee awareness programs"
+      ],
+      "outcome": "A practical AI adoption plan that balances innovation, business value, security and responsible governance.",
+      "cta": "Contact Us to start your AI readiness assessment."
+    },
+    {
+      "slug": "strategic-technology-partnerships-and-managed-delivery",
+      "title": "Strategic Technology Partnerships and Managed Delivery",
+      "headline": "Coordinate the right expertise for complex outcomes",
+      "body": "TORSA leads integrated delivery where clients need strategic advisory, specialist technology capability and implementation assurance. We work with selected partners while retaining accountability for alignment, governance and delivery quality.",
+      "whatWeDo": [
+        "Technology partner and solution evaluation",
+        "Multi-vendor program coordination",
+        "Managed implementation oversight",
+        "Cloud, security, ERP, CRM, analytics and digital-workplace delivery through qualified partners",
+        "Solution and vendor assurance",
+        "TORSA-led delivery governance and executive reporting"
+      ],
+      "outcome": "A coordinated delivery model, one accountable technology partner and greater confidence that implementation remains aligned to business outcomes.",
+      "cta": "Contact Us to discuss your technology implementation requirements."
+    }
+  ],
+  "dimenserve": {
+    "title": "DimenServe GRC Platform",
+    "headline": "Digitize governance, risk and compliance",
+    "body": "DimenServe GRC is TORSA’s proprietary platform for organisations that want to replace disconnected spreadsheets, emails and manual follow-ups with a single, accountable governance environment.",
+    "supportingBody": "The platform brings risk, compliance, audit, action management and continual improvement into one configurable digital ecosystem.",
+    "supports": [
+      "Risk and control management",
+      "Compliance obligations and evidence management",
+      "Audit planning, findings and remediation",
+      "Corrective actions, tasks and continual improvement",
+      "ISO and integrated management-system workflows",
+      "Policy, control and document accountability",
+      "Management reporting and dashboards",
+      "Role-based access and end-to-end traceability"
+    ],
+    "outcome": "Greater visibility, clearer ownership, easier audit preparation and reliable traceability from risk and control to evidence and action.",
+    "cta": "Contact Us to book a DimenServe GRC demonstration."
+  },
+  "contact": {
+    "title": "Let’s Start the Conversation",
+    "body": "Every organization is at a different point in its technology journey. Whether you are defining a roadmap, strengthening security, digitizing governance, building a solution or scaling your delivery capability, TORSA can help you take the next practical step.",
+    "cta": "Talk to TORSA"
+  },
+  "imageSearch": {
+    "instruction": "Use web search to select strong, professional, editorial-quality images. Prefer Unsplash/Pexels and imagery relevant to African business, technology consulting, leadership, cybersecurity, software teams, governance, training and enterprise delivery. Avoid generic cliché stock imagery where possible.",
+    "queries": [
+      "African technology consulting leadership",
+      "African business executive technology meeting",
+      "African software development team",
+      "cybersecurity governance business",
+      "enterprise technology architecture",
+      "Agile product team collaboration",
+      "African professional training workshop",
+      "AI governance business technology",
+      "risk compliance governance dashboard"
+    ],
+    "reference": "Useful image-search starting points include Unsplash technology consulting and African technology collections. urlUnsplash — technology consultinghttps://unsplash.com/s/photos/technology-consulting"
+  }
+}

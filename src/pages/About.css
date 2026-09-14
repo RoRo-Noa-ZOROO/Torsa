@@ -1,0 +1,194 @@
+/* ═══════════════════════════════════════════
+   PAGE HERO (shared across pages)
+   ═══════════════════════════════════════════ */
+.page-hero {
+  padding: calc(var(--nav-height) + 80px) 0 60px;
+  background: var(--color-surface-alt);
+}
+
+.page-hero__title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 14px;
+  color: var(--color-text);
+}
+
+.page-hero__subtitle {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+/* ═══════════════════════════════════════════
+   ABOUT STORY
+   ═══════════════════════════════════════════ */
+.about-story {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.about-story__text {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-story__card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  box-shadow: var(--color-card-shadow);
+}
+
+.about-story__stat {
+  text-align: center;
+}
+
+.about-story__stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-gold);
+  letter-spacing: -0.02em;
+}
+
+.about-story__stat-label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-top: 4px;
+}
+
+/* ═══════════════════════════════════════════
+   BELIEFS
+   ═══════════════════════════════════════════ */
+.about-beliefs__inner {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.about-beliefs__accent {
+  width: 3px;
+  min-height: 80px;
+  background: var(--color-gold);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* ═══════════════════════════════════════════
+   WHAT WE DO GRID
+   ═══════════════════════════════════════════ */
+.about-whatwedo__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.about-whatwedo__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 24px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-smooth);
+}
+
+.about-whatwedo__item:hover {
+  border-color: var(--color-gold);
+  box-shadow: var(--color-card-shadow);
+}
+
+
+
+.about-whatwedo__text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text);
+  line-height: 1.4;
+}
+
+/* ═══════════════════════════════════════════
+   EXPERIENCE
+   ═══════════════════════════════════════════ */
+.about-experience {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.about-experience__text {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.about-experience__card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+}
+
+.about-experience__leadership {
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+}
+
+/* ═══════════════════════════════════════════
+   COMMITMENT
+   ═══════════════════════════════════════════ */
+.about-commitment {
+  text-align: center;
+}
+
+.about-commitment__accent {
+  width: 40px;
+  height: 2px;
+  background: var(--color-gold);
+  border-radius: 2px;
+  margin: 0 auto 20px;
+}
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════ */
+@media (max-width: 1024px) {
+  .about-story {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .about-experience {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-whatwedo__grid {
+    grid-template-columns: 1fr;
+  }
+  .about-beliefs__inner {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-beliefs__accent {
+    min-height: 4px;
+    width: 48px;
+  }
+}
