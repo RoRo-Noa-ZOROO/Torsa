@@ -137,6 +137,11 @@
 - [x] Production build passes: 349 modules, 0 errors
 - [x] Verified `/torsa-logo.png` → HTTP 200, all routes → HTTP 200
 - [x] Verified all 11 routes + modules return 200 on the dev server (port 3000)
+- [x] **Fix Vercel build failure `EBADPLATFORM`** — removed `@rollup/rollup-win32-x64-msvc` from
+      `dependencies`. It is a Windows-only Rollup binary that npm refused to install on Vercel's
+      Linux build machines. Rollup now auto-selects the correct per-platform binary via its own
+      `optionalDependencies`, so nothing needs to be declared manually.
+- [x] Regenerated `package-lock.json` (288 packages, clean install verified with no EBADPLATFORM)
 - [ ] Decide whether to `git rm -r --cached dist` (build output is currently tracked from an earlier commit)
 - [ ] Visual QA via dev server (manual)
 - [ ] Test all routes (manual)

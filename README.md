@@ -20,7 +20,7 @@ Vite prints the local URL. This project sets `port: 3000` in `vite.config.js`, s
 | Command           | What it does                                              |
 | ----------------- | --------------------------------------------------------- |
 | `npm install`     | Install dependencies into `node_modules/`                  |
-| `npm run dev`     | Dev server with hot module reloading on `localhost:5173`   |
+| `npm run dev`     | Dev server with hot module reloading on `localhost:3000`   |
 | `npm run build`   | Production build into `dist/`                              |
 | `npm run preview` | Serve the built `dist/` locally to check the real output    |
 | `npm run lint`    | Run ESLint over all `.js` / `.jsx` files                   |
@@ -61,6 +61,39 @@ next free port automatically (it will print the new URL):
 Get-NetTCPConnection -LocalPort 3000 -State Listen
 Get-Process -Id <OwningProcess> | Stop-Process -Force
 ```
+
+**Vercel build fails with `npm error code EBADPLATFORM`**
+
+You have a platform-specific binary (e.g. a Windows-only `@rollup/rollup-win32-*` package) listed
+as a direct dependency. Vercel builds on Linux, so npm refuses to install it. Never declare these
+manually — Rollup and similar tools pick the right binary automatically via `optionalDependencies`.
+Delete the entry from `package.json`, then regenerate the lockfile:
+
+```bash
+npm install
+git add package.json package-lock.json
+git commit -m "Remove platform-specific dependency"
+git push origin main
+```
+
+---
+
+## `dependencies` vs `devDependencies`
+
+Both install with `npm install`; the difference is **what ships to production** and what a hosting
+platform is allowed to skip.
+
+| | `dependencies` | `devDependencies` |
+|---|---|---|
+| Purpose | Code your app **runs** in production | Tools used **only while developing/building** |
+| Examples here | `react`, `react-dom`, `react-router-dom`, `framer-motion` | `vite`, `@vitejs/plugin-react`, `eslint`, `eslint-plugin-*`, `@types/*` |
+| Needed on the server? | Yes | No — but Vercel still installs them to run `npm run build` |
+| Rule of thumb | If `import`ing it ships to the browser, it belongs here | If it's a build/test/lint tool, it belongs here |
+
+A real bug to avoid: putting a **platform-specific binary** (like `@rollup/rollup-win32-x64-msvc`)
+in `dependencies`. npm hard-fails with `EBADPLATFORM` on any other OS, which breaks Linux-based
+CI and Vercel builds. Transitive platform binaries should never be declared by hand — the parent
+tool selects the correct one automatically through `optionalDependencies`.
 
 ---
 
