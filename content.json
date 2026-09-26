@@ -2,12 +2,8 @@
   "site": {
     "name": "TORSA Consulting",
     "positioning": "Your Technology Journey Partner",
-    "logo": "torsa logo.png",
-    "primaryAudience": "Executives and decision-makers",
-    "theme": {
-      "light": "Professional, bright, high-contrast corporate interface.",
-      "dark": "Premium, restrained dark interface with strong readability."
-    }
+    "logo": "torsa-logo.png",
+    "primaryAudience": "Executives and decision-makers"
   },
   "navigation": [
     {
@@ -37,9 +33,9 @@
   ],
   "home": {
     "hero": {
-      "title": "Technology that moves your organisation forward",
-      "body": "TORSA Consulting is your technology journey partner. We help organisations across Africa turn business ambition into practical technology strategy, secure governance, effective delivery and sustainable capability.",
-      "primaryCta": "Start a conversation",
+      "title": "Technology Partner that moves your organisation forward",
+      "body": "TORSA Consulting is your technology journey partner. We help organizations turn business ambition into practical technology strategy, secure governance, effective delivery and sustainable capability.",
+      "primaryCta": "Start a Conversation",
       "secondaryCta": "Explore our services"
     },
     "positioning": {
@@ -49,11 +45,11 @@
     "coreServicePillars": [
       "Technology strategy and executive advisory",
       "Enterprise architecture and digital transformation",
-      "AI governance and responsible adoption",
-      "Information security, technology governance and ISO 27001",
-      "DimenServe GRC, TORSA’s proprietary governance, risk and compliance platform",
       "Agile, Lean and product-delivery transformation",
+      "Information security, technology governance and ISO 27001",
       "Bespoke software and digital solution development",
+      "AI governance and responsible adoption",
+      "DimenServe GRC, TORSA’s proprietary governance, risk and compliance platform",
       "Technology operations and IT service management",
       "Professional training and capability development",
       "Specialist resource augmentation and managed delivery teams"
@@ -83,7 +79,7 @@
     "finalCta": {
       "title": "Let’s Start the Conversation",
       "body": "Every organization is at a different point in its technology journey. Whether you are defining a roadmap, strengthening security, digitizing governance, building a solution or scaling your delivery capability, TORSA can help you take the next practical step.",
-      "cta": "Talk to TORSA"
+      "cta": "Start a Conversation"
     }
   },
   "about": {
@@ -116,19 +112,19 @@
     "aboutMetrics": [
       {
         "label": "Years of experience",
-        "value": "00+"
+        "value": "20+"
       },
       {
         "label": "Projects delivered",
-        "value": "00+"
+        "value": "70+"
       },
       {
         "label": "Countries / markets",
-        "value": "00"
+        "value": "6+"
       },
       {
         "label": "Specialist capability areas",
-        "value": "00+"
+        "value": "10+"
       }
     ]
   },
@@ -153,22 +149,23 @@
       "cta": "Contact Us to start with a Technology Direction Sprint."
     },
     {
-      "slug": "fractional-cio-and-technology-leadership-partner",
-      "title": "Fractional CIO and Technology Leadership Partner",
-      "headline": "Senior technology leadership when you need it",
-      "body": "Not every organisation needs or is ready for a full-time CIO or CTO. TORSA provides experienced, flexible technology leadership for executives, boards and management teams that need strategic guidance and stronger technology oversight.",
-      "supportingBody": "We become a trusted leadership partner, helping you make sound technology decisions while strengthening internal capability.",
+      "slug": "agile-lean-and-product-delivery-transformation",
+      "title": "Agile, Lean and Product Delivery Transformation",
+      "headline": "Improve delivery flow without losing control",
+      "body": "TORSA helps organisations improve how business and technology teams plan, prioritise and deliver work. Our approach combines SAFe, Agile, Lean Portfolio Management and product-delivery practices with governance that works in the real world.",
       "whatWeDo": [
-        "Executive and board technology advisory",
-        "Technology strategy and roadmap oversight",
-        "Technology investment and vendor-management support",
-        "Program and portfolio governance",
-        "Technology-risk and security oversight",
-        "Leadership reporting and decision support",
-        "Interim CIO, CTO or technology-director support"
+        "SAFe and Lean-Agile transformation advisory",
+        "Agile delivery and maturity assessments",
+        "Lean Portfolio Management and value-stream design",
+        "Agile operating-model and delivery-governance design",
+        "ART formation and PI Planning support",
+        "Executive, product-leader and delivery-team coaching",
+        "Product ownership, backlog management and prioritization",
+        "Built-In Quality, DevOps and continual-improvement practices",
+        "Agile Centre of Excellence development"
       ],
-      "outcome": "Confident executive decision-making, stronger technology governance and access to experienced leadership without the overhead of a permanent executive appointment.",
-      "cta": "Contact Us to discuss a flexible technology leadership retainer."
+      "outcome": "Better alignment between strategy and delivery, improved predictability, faster learning and stronger product and programme outcomes.",
+      "cta": "Contact Us to accelerate your Agile and delivery transformation."
     },
     {
       "slug": "information-security-and-iso-27001",
@@ -210,23 +207,22 @@
       "cta": "Contact Us to assess your technology-service maturity."
     },
     {
-      "slug": "agile-lean-and-product-delivery-transformation",
-      "title": "Agile, Lean and Product Delivery Transformation",
-      "headline": "Improve delivery flow without losing control",
-      "body": "TORSA helps organisations improve how business and technology teams plan, prioritise and deliver work. Our approach combines SAFe, Agile, Lean Portfolio Management and product-delivery practices with governance that works in the real world.",
+      "slug": "fractional-cio-and-technology-leadership-partner",
+      "title": "Fractional CIO and Technology Leadership Partner",
+      "headline": "Senior technology leadership when you need it",
+      "body": "Not every organisation needs or is ready for a full-time CIO or CTO. TORSA provides experienced, flexible technology leadership for executives, boards and management teams that need strategic guidance and stronger technology oversight.",
+      "supportingBody": "We become a trusted leadership partner, helping you make sound technology decisions while strengthening internal capability.",
       "whatWeDo": [
-        "SAFe and Lean-Agile transformation advisory",
-        "Agile delivery and maturity assessments",
-        "Lean Portfolio Management and value-stream design",
-        "Agile operating-model and delivery-governance design",
-        "ART formation and PI Planning support",
-        "Executive, product-leader and delivery-team coaching",
-        "Product ownership, backlog management and prioritization",
-        "Built-In Quality, DevOps and continual-improvement practices",
-        "Agile Centre of Excellence development"
+        "Executive and board technology advisory",
+        "Technology strategy and roadmap oversight",
+        "Technology investment and vendor-management support",
+        "Program and portfolio governance",
+        "Technology-risk and security oversight",
+        "Leadership reporting and decision support",
+        "Interim CIO, CTO or technology-director support"
       ],
-      "outcome": "Better alignment between strategy and delivery, improved predictability, faster learning and stronger product and programme outcomes.",
-      "cta": "Contact Us to accelerate your Agile and delivery transformation."
+      "outcome": "Confident executive decision-making, stronger technology governance and access to experienced leadership without the overhead of a permanent executive appointment.",
+      "cta": "Contact Us to discuss a flexible technology leadership retainer."
     },
     {
       "slug": "bespoke-software-and-digital-solution-development",
@@ -248,30 +244,20 @@
       "cta": "Contact Us to talk to us about your next digital solution."
     },
     {
-      "slug": "specialist-resource-augmentation",
-      "title": "Specialist Resource Augmentation",
-      "headline": "Add the capability your team needs",
-      "body": "TORSA provides skilled technology and management professionals for transformation programmes, projects and operational teams. Whether you need one specialist, a delivery squad or a blended TORSA-client team, we help you access capability aligned to your immediate requirement.",
-      "resourceAreas": [
-        "Enterprise and solution architecture",
-        "Program and project management",
-        "Business analysis and product ownership",
-        "Information security, GRC and ISO specialists",
-        "Agile coaches, Scrum Masters and SAFe practitioners",
-        "IT service management and service delivery",
-        "Software development, QA and testing",
-        "Data, cloud, infrastructure and Microsoft 365",
-        "PMO, vendor management and technology procurement"
+      "slug": "strategic-technology-partnerships-and-managed-delivery",
+      "title": "Strategic Technology Partnerships and Managed Delivery",
+      "headline": "Coordinate the right expertise for complex outcomes",
+      "body": "TORSA leads integrated delivery where clients need strategic advisory, specialist technology capability and implementation assurance. We work with selected partners while retaining accountability for alignment, governance and delivery quality.",
+      "whatWeDo": [
+        "Technology partner and solution evaluation",
+        "Multi-vendor program coordination",
+        "Managed implementation oversight",
+        "Cloud, security, ERP, CRM, analytics and digital-workplace delivery through qualified partners",
+        "Solution and vendor assurance",
+        "TORSA-led delivery governance and executive reporting"
       ],
-      "engagementOptions": [
-        "Project-based specialist placement",
-        "Fixed-term resource augmentation",
-        "Part-time advisory support",
-        "Managed delivery squads",
-        "Blended client and TORSA teams"
-      ],
-      "outcome": "Faster access to capable people, flexible delivery capacity and less risk than permanent hiring for time-bound needs.",
-      "cta": "Contact Us to share your capability requirement with TORSA."
+      "outcome": "A coordinated delivery model, one accountable technology partner and greater confidence that implementation remains aligned to business outcomes.",
+      "cta": "Contact Us to discuss your technology implementation requirements."
     },
     {
       "slug": "training-and-professional-capability-development",
@@ -302,7 +288,13 @@
         "Multi-module capability academies"
       ],
       "outcome": "More confident leaders, stronger internal capability and practical methods that improve how teams make decisions and deliver work.",
-      "cta": "Contact Us to enroll in a SAFe training or design a training program for your team."
+      "cta": "Contact Us to enroll in a training that is suitable for you and your team or let us design a training program for your team as per your specific requirements.",
+      "calendar": {
+        "title": "Upcoming Training Calendar",
+        "body": "Our published training calendar is being finalised. If you have a particular programme in mind — for yourself, your team or an enterprise cohort — we will design and schedule it around your requirements.",
+        "note": "Programme dates are confirmed on request and depend on trainer availability and cohort size. Enquire now and we will share the current schedule.",
+        "cta": "Start a Conversation"
+      }
     },
     {
       "slug": "ai-governance-and-responsible-adoption",
@@ -322,39 +314,178 @@
       "cta": "Contact Us to start your AI readiness assessment."
     },
     {
-      "slug": "strategic-technology-partnerships-and-managed-delivery",
-      "title": "Strategic Technology Partnerships and Managed Delivery",
-      "headline": "Coordinate the right expertise for complex outcomes",
-      "body": "TORSA leads integrated delivery where clients need strategic advisory, specialist technology capability and implementation assurance. We work with selected partners while retaining accountability for alignment, governance and delivery quality.",
-      "whatWeDo": [
-        "Technology partner and solution evaluation",
-        "Multi-vendor program coordination",
-        "Managed implementation oversight",
-        "Cloud, security, ERP, CRM, analytics and digital-workplace delivery through qualified partners",
-        "Solution and vendor assurance",
-        "TORSA-led delivery governance and executive reporting"
+      "slug": "specialist-resource-augmentation",
+      "title": "Specialist Resource Augmentation",
+      "headline": "Add the capability your team needs",
+      "body": "TORSA provides skilled technology and management professionals for transformation programmes, projects and operational teams. Whether you need one specialist, a delivery squad or a blended TORSA-client team, we help you access capability aligned to your immediate requirement.",
+      "resourceAreas": [
+        "Enterprise and solution architecture",
+        "Program and project management",
+        "Business analysis and product ownership",
+        "Information security, GRC and ISO specialists",
+        "Agile coaches, Scrum Masters and SAFe practitioners",
+        "IT service management and service delivery",
+        "Software development, QA and testing",
+        "Data, cloud, infrastructure and Microsoft 365",
+        "PMO, vendor management and technology procurement"
       ],
-      "outcome": "A coordinated delivery model, one accountable technology partner and greater confidence that implementation remains aligned to business outcomes.",
-      "cta": "Contact Us to discuss your technology implementation requirements."
+      "engagementOptions": [
+        "Project-based specialist placement",
+        "Fixed-term resource augmentation",
+        "Part-time advisory support",
+        "Managed delivery squads",
+        "Blended client and TORSA teams"
+      ],
+      "outcome": "Faster access to capable people, flexible delivery capacity and less risk than permanent hiring for time-bound needs.",
+      "cta": "Contact Us to share your capability requirement with TORSA."
     }
   ],
   "dimenserve": {
     "title": "DimenServe GRC Platform",
     "headline": "Digitize governance, risk and compliance",
-    "body": "DimenServe GRC is TORSA’s proprietary platform for organisations that want to replace disconnected spreadsheets, emails and manual follow-ups with a single, accountable governance environment.",
-    "supportingBody": "The platform brings risk, compliance, audit, action management and continual improvement into one configurable digital ecosystem.",
-    "supports": [
-      "Risk and control management",
-      "Compliance obligations and evidence management",
-      "Audit planning, findings and remediation",
-      "Corrective actions, tasks and continual improvement",
-      "ISO and integrated management-system workflows",
-      "Policy, control and document accountability",
-      "Management reporting and dashboards",
-      "Role-based access and end-to-end traceability"
+    "intro": "DimenServe is an enterprise-ready Governance Risk and Compliance (GRC) platform designed to simplify governance, assurance, and continuous improvement without the cost and complexity of large enterprise suites.",
+    "description": "It provides a configurable digital environment for organizations that want to replace fragmented spreadsheets, emails and manual processes with traceable, accountable governance workflows. Primarily, the platform brings risk, compliance, audit, action management and continual improvement into one configurable digital ecosystem.",
+    "solution": [
+      "DimenServe GRC platform implementation and managed configuration",
+      "Digital ISO management-system solutions",
+      "Compliance, risk, audit and corrective-action workflow automation",
+      "GRC reporting, executive dashboards and evidence-management solutions"
     ],
-    "outcome": "Greater visibility, clearer ownership, easier audit preparation and reliable traceability from risk and control to evidence and action.",
-    "cta": "Contact Us to book a DimenServe GRC demonstration."
+    "capabilities": [
+      "Risk, compliance, audit and corrective-action management",
+      "ISO and integrated management-system workflow digitization",
+      "Policy, control, evidence and obligation management",
+      "Continual improvement, task and action tracking",
+      "Audit planning, findings, remediation and management reporting",
+      "Role-based access, segregation of duties and end-to-end traceability",
+      "Platform configuration, implementation, integration and user adoption support"
+    ],
+    "bestFor": "Organizations managing risk, audits, controls and evidence through fragmented manual processes",
+    "valueRealization": [
+      "Greater visibility, clearer ownership, easier audit preparation and reliable traceability from risk and control to evidence and action.",
+      "Move beyond disconnected spreadsheets and manual follow-ups with configurable workflows, evidence management, dashboards and clear ownership.",
+      "Enterprise capability without enterprise pricing",
+      "Rapid deployment and fast time-to-value",
+      "Predictable annual cost",
+      "Designed for ISO, risk, audit, and governance-driven organizations"
+    ],
+    "deploymentOptions": [
+      "Cloud (SaaS)",
+      "On-Prem",
+      "Private Cloud"
+    ],
+    "serviceOffering": {
+      "title": "Flexible GRC Delivery Models",
+      "intro": "DimenServe GRC is TORSA Consulting’s proprietary platform for managing governance, risk, compliance, audit, actions and continual improvement in one connected environment.",
+      "description": "Organisations have different levels of internal GRC capability, capacity and maturity. TORSA therefore offers three flexible service models, allowing clients to select the level of platform access, specialist support and assurance that best suits their needs.",
+      "models": [
+        {
+          "name": "DimenServe GRC Platform Subscription",
+          "tagline": "Your platform. Your processes. Your control.",
+          "description": "This model is designed for organisations that have their own GRC, risk, compliance, quality or internal-audit capability and want a configurable platform to manage their processes more effectively.",
+          "torsaProvides": [
+            "DimenServe GRC platform subscription",
+            "Platform implementation and configuration",
+            "Configuration of agreed modules, workflows and user roles",
+            "User onboarding and administrator training",
+            "Reporting and dashboard setup",
+            "Technical support, maintenance and platform enhancements",
+            "Optional advisory support as required"
+          ],
+          "clientManages": [
+            "GRC policies, processes and ownership",
+            "Risk identification, assessment and treatment",
+            "Compliance obligations and evidence",
+            "Internal audit planning and execution",
+            "Corrective actions and continual improvement",
+            "Management review and internal reporting"
+          ],
+          "bestSuitedTo": "Organisations with established internal GRC capability that want to digitize manual processes, improve traceability and gain better management visibility."
+        },
+        {
+          "name": "Managed GRC Service with DimenServe",
+          "tagline": "Your GRC function, managed by TORSA.",
+          "description": "This model is designed for organisations that want to outsource all or part of their GRC function to TORSA. TORSA uses DimenServe GRC as the operating platform to manage agreed governance, risk, compliance and continual-improvement activities on the client’s behalf.",
+          "torsaProvides": [
+            "DimenServe GRC platform subscription and administration",
+            "GRC operating-model design and implementation",
+            "Risk and compliance process administration",
+            "Policy, control, evidence and obligation management",
+            "Corrective-action and continual-improvement coordination",
+            "Risk and compliance reporting dashboards",
+            "Management-review support",
+            "GRC advisory and capability development",
+            "Internal-audit planning, coordination and delivery support",
+            "Ongoing platform support and enhancement"
+          ],
+          "clientManages": [
+            "Executive accountability for governance, risk and compliance",
+            "Approval of policies, risk appetite and key decisions",
+            "Control ownership and operational evidence provision",
+            "Oversight through agreed governance forums",
+            "Final accountability for remediation actions"
+          ],
+          "bestSuitedTo": "Organisations that need an outsourced GRC capability, additional specialist capacity, stronger governance discipline or a practical route to ISO and other assurance readiness."
+        },
+        {
+          "name": "DimenServe GRC Platform with Internal Audit Services",
+          "tagline": "Your GRC function. Independent assurance from TORSA.",
+          "description": "This model is designed for organisations that want to own and manage their GRC processes internally while using DimenServe GRC as their digital platform. TORSA provides independent internal-audit services to assess the effectiveness of governance, risk, compliance and control arrangements.",
+          "torsaProvides": [
+            "DimenServe GRC platform subscription",
+            "Platform implementation, configuration and user training",
+            "Internal-audit planning and annual audit program development",
+            "Risk-based internal audits",
+            "Audit findings, recommendations and corrective-action tracking",
+            "Audit reporting for management and governance structures",
+            "Follow-up audits and remediation verification",
+            "Optional GRC advisory, provided outside the audit scope to preserve independence"
+          ],
+          "clientManages": [
+            "Day-to-day GRC processes",
+            "Risk, compliance and control ownership",
+            "Evidence collection and maintenance",
+            "Internal corrective actions",
+            "Management review and decision-making",
+            "Responses to audit findings and remediation plans"
+          ],
+          "bestSuitedTo": "Organisations with internal GRC ownership that require a structured platform and independent, experienced internal-audit capability."
+        }
+      ]
+    },
+    "scalablePartnership": {
+      "title": "A Scalable Partnership",
+      "body": "Clients can begin with one model and evolve as their needs change. For example, an organization may start with a platform subscription, engage TORSA for internal audits as governance maturity grows, or move to a managed GRC service during periods of transition, growth or limited internal capacity.",
+      "nextStep": "TORSA will work with each client to define the appropriate platform modules, service scope, governance model, implementation approach and support arrangement."
+    },
+    "atAGlance": [
+      {
+        "serviceModel": "Platform Subscription",
+        "platform": "DimenServe GRC",
+        "dayToDayGrcManagement": "Client",
+        "internalAudit": "Client or separately appointed provider",
+        "bestFor": "Organisations with established internal GRC capability"
+      },
+      {
+        "serviceModel": "Managed GRC Service",
+        "platform": "DimenServe GRC",
+        "dayToDayGrcManagement": "TORSA, with client oversight",
+        "internalAudit": "Subject to independence safeguards",
+        "bestFor": "Organisations outsourcing all or part of their GRC function"
+      },
+      {
+        "serviceModel": "Platform plus Internal Audit",
+        "platform": "DimenServe GRC",
+        "dayToDayGrcManagement": "Client",
+        "internalAudit": "TORSA",
+        "bestFor": "Organisations requiring independent assurance"
+      }
+    ],
+    "cta": {
+      "title": "Start with a GRC discovery session",
+      "body": "TORSA offers an initial GRC discovery session to understand your current processes, capability, assurance needs and desired outcomes. We then recommend the DimenServe service model that best fits your organization.",
+      "label": "Book a Discovery Session"
+    }
   },
   "contact": {
     "title": "Let’s Start the Conversation",

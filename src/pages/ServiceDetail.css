@@ -1,19 +1,23 @@
 /* ═══════════════════════════════════════════
    SERVICE DETAIL
    ═══════════════════════════════════════════ */
-.service-detail__back {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--color-text-muted);
-  margin-bottom: 20px;
-  transition: color var(--transition-fast);
+/* Block wrapper guarantees the "— Service" label breaks to its own line below the button */
+.service-detail__back-wrap {
+  display: block;
+  width: 100%;
+  margin-bottom: 28px;
 }
 
-.service-detail__back:hover {
-  color: var(--color-gold);
+/* Themed button variant — inherits .btn / .btn--secondary, only nudges the arrow on hover */
+.service-detail__back-arrow {
+  display: inline-block;
+  line-height: 1;
+  transition: transform var(--transition-fast);
+}
+
+.service-detail__back:hover .service-detail__back-arrow,
+.service-detail__back:focus-visible .service-detail__back-arrow {
+  transform: translateX(-3px);
 }
 
 .service-detail__layout {
@@ -78,5 +82,11 @@
   }
   .service-detail__sidebar {
     position: static;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-detail__back {
+    width: 100%;
   }
 }

@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="footer__grid">
             <div className="footer__brand">
               <Link to="/" className="footer__logo">
-                <img src="/torsa logo.png" alt="TORSA Consulting" className="footer__logo-img" />
+                <img src="/torsa-logo.png" alt="TORSA Consulting" className="footer__logo-img" />
                 <span className="footer__logo-text">TORSA</span>
               </Link>
               <p className="footer__tagline">{content.site.positioning}</p>
@@ -43,7 +43,7 @@ export default function Footer() {
             <div className="footer__col">
               <h4 className="footer__heading">Get in Touch</h4>
               <p className="footer__text">Ready to take the next step in your technology journey?</p>
-              <Link to="/contact" className="btn btn--primary footer__cta">Talk to TORSA</Link>
+              <Link to="/contact" className="btn btn--primary footer__cta">Start a Conversation</Link>
             </div>
           </div>
         </div>

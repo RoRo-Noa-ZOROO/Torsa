@@ -47,7 +47,12 @@ export default function ServiceDetail() {
       <section className="page-hero">
         <div className="container">
           <FadeIn>
-            <Link to="/services" className="service-detail__back">← Back to Services</Link>
+            <div className="service-detail__back-wrap">
+              <Link to="/services" className="btn btn--secondary service-detail__back">
+                <span className="service-detail__back-arrow" aria-hidden="true">&#8592;</span>
+                Back to Services
+              </Link>
+            </div>
             <div className="section-label">Service</div>
             <h1 className="page-hero__title">{service.title}</h1>
             <p className="page-hero__subtitle">{service.headline}</p>
@@ -90,7 +95,7 @@ export default function ServiceDetail() {
           <div className="container" style={{ textAlign: 'center' }}>
             <FadeIn>
               <p style={{ fontSize: '1.05rem', color: 'var(--color-text-secondary)', marginBottom: 24 }}>{service.cta}</p>
-              <Link to="/contact" className="btn btn--primary btn--lg">Contact Us</Link>
+              <Link to="/contact" className="btn btn--primary btn--lg">Start a Conversation</Link>
             </FadeIn>
           </div>
         </section>

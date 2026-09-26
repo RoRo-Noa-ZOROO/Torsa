@@ -1,17 +1,16 @@
-/* ═══════════════════════════════════════════
-   PAGE HERO (shared across pages)
-   ═══════════════════════════════════════════ */
+/* Page Hero */
 .page-hero {
   padding: calc(var(--nav-height) + 80px) 0 60px;
-  background: var(--color-surface-alt);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border-light);
 }
 
 .page-hero__title {
-  font-size: clamp(2rem, 4vw, 3rem);
-  font-weight: 800;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-  margin-bottom: 14px;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-weight: 900;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  margin-bottom: 16px;
   color: var(--color-text);
 }
 
@@ -19,176 +18,174 @@
   font-size: clamp(1rem, 1.5vw, 1.15rem);
   color: var(--color-text-secondary);
   line-height: 1.7;
-  max-width: 600px;
+  max-width: 640px;
 }
 
-/* ═══════════════════════════════════════════
-   ABOUT STORY
-   ═══════════════════════════════════════════ */
+/* About Story */
 .about-story {
   display: grid;
   grid-template-columns: 1.3fr 0.7fr;
   gap: 64px;
-  align-items: start;
+  align-items: center;
 }
 
 .about-story__text {
   font-size: 1rem;
   color: var(--color-text-secondary);
   line-height: 1.8;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .about-story__card {
   background: var(--color-surface);
   border: 1px solid var(--color-border-light);
   border-radius: var(--radius-lg);
-  padding: 36px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
-  box-shadow: var(--color-card-shadow);
+  gap: 32px;
 }
 
 .about-story__stat {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .about-story__stat-number {
-  display: block;
-  font-size: 2rem;
-  font-weight: 800;
-  color: var(--color-gold);
-  letter-spacing: -0.02em;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--color-accent);
+  line-height: 1;
 }
 
 .about-story__stat-label {
-  display: block;
   font-size: 0.85rem;
   color: var(--color-text-muted);
-  margin-top: 4px;
+  font-weight: 500;
 }
 
-/* ═══════════════════════════════════════════
-   BELIEFS
-   ═══════════════════════════════════════════ */
-.about-beliefs__inner {
-  display: flex;
-  gap: 32px;
-  align-items: flex-start;
-}
-
-.about-beliefs__accent {
-  width: 3px;
-  min-height: 80px;
-  background: var(--color-gold);
-  border-radius: 2px;
-  flex-shrink: 0;
-}
-
-/* ═══════════════════════════════════════════
-   WHAT WE DO GRID
-   ═══════════════════════════════════════════ */
-.about-whatwedo__grid {
+/* Values */
+.about-values__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+  gap: 20px;
 }
 
-.about-whatwedo__item {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  padding: 18px 24px;
-  background: var(--color-surface);
+.about-value-card {
+  padding: 32px;
   border: 1px solid var(--color-border-light);
   border-radius: var(--radius-md);
-  transition: all var(--transition-smooth);
+  background: var(--color-bg);
 }
 
-.about-whatwedo__item:hover {
-  border-color: var(--color-gold);
-  box-shadow: var(--color-card-shadow);
+.about-value-card__number {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: 12px;
 }
 
-
-
-.about-whatwedo__text {
-  font-size: 0.9rem;
-  font-weight: 500;
+.about-value-card__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
   color: var(--color-text);
-  line-height: 1.4;
 }
 
-/* ═══════════════════════════════════════════
-   EXPERIENCE
-   ═══════════════════════════════════════════ */
-.about-experience {
+.about-value-card__body {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+/* Founder */
+.about-founder__inner {
   display: grid;
-  grid-template-columns: 1.4fr 0.6fr;
-  gap: 48px;
-  align-items: start;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 64px;
+  align-items: center;
 }
 
-.about-experience__text {
+.about-founder__role {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 12px;
+}
+
+.about-founder__tagline {
   font-size: 0.95rem;
   color: var(--color-text-secondary);
-  line-height: 1.8;
+  line-height: 1.7;
+}
+
+.about-founder__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about-founder__highlight {
+  padding: 16px 20px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+/* Metrics */
+.about-metrics__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.about-metric-card {
+  text-align: center;
+  padding: 36px 24px;
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+}
+
+.about-metric-card__icon {
+  font-size: 2rem;
+  display: block;
   margin-bottom: 16px;
 }
 
-.about-experience__card {
-  background: var(--color-bg);
-  border: 1px solid var(--color-border-light);
-  border-radius: var(--radius-lg);
-  padding: 32px;
+.about-metric-card__title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--color-text);
 }
 
-.about-experience__leadership {
-  font-size: 0.95rem;
+.about-metric-card__body {
+  font-size: 0.85rem;
   color: var(--color-text-secondary);
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
-/* ═══════════════════════════════════════════
-   COMMITMENT
-   ═══════════════════════════════════════════ */
-.about-commitment {
-  text-align: center;
+.about-certifications {
+  max-width: 700px;
 }
 
-.about-commitment__accent {
-  width: 40px;
-  height: 2px;
-  background: var(--color-gold);
-  border-radius: 2px;
-  margin: 0 auto 20px;
-}
-
-/* ═══════════════════════════════════════════
-   RESPONSIVE
-   ═══════════════════════════════════════════ */
+/* Responsive */
 @media (max-width: 1024px) {
-  .about-story {
+  .about-story, .about-founder__inner {
     grid-template-columns: 1fr;
     gap: 40px;
-  }
-  .about-experience {
-    grid-template-columns: 1fr;
-    gap: 32px;
   }
 }
 
 @media (max-width: 768px) {
-  .about-whatwedo__grid {
+  .about-values__grid {
     grid-template-columns: 1fr;
   }
-  .about-beliefs__inner {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .about-beliefs__accent {
-    min-height: 4px;
-    width: 48px;
+  .about-metrics__grid {
+    grid-template-columns: 1fr;
   }
 }

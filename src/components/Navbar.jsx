@@ -58,7 +58,7 @@ export default function Navbar() {
               transition={{ duration: 0.35, ease: [0.25, 0.1, 0.25, 1] }}>
               <div className="navbar__mobile-header">
                 <Link to="/" className="navbar__mobile-logo">
-                  <img src="/torsa logo.png" alt="TORSA" className="navbar__logo-img" />
+                  <img src="/torsa-logo.png" alt="TORSA" className="navbar__logo-img" />
                   <span className="navbar__logo-text">TORSA</span>
                 </Link>
                 <button className="navbar__close" onClick={() => setIsOpen(false)} aria-label="Close menu">

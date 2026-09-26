@@ -247,6 +247,13 @@ body {
 .grid {
   display: grid;
   gap: 24px;
+  align-items: stretch;
+}
+
+.grid > * {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 
 .grid--2 {

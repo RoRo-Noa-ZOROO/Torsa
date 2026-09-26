@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
 import content from '../data/content.json'
 import { FadeIn, FadeInLeft, FadeInRight, StaggerContainer, StaggerItem, PageTransition } from '../components/AnimatedSection'
 import './Home.css'
@@ -25,13 +24,6 @@ export default function Home() {
               <Link to="/services" className="btn btn--secondary btn--lg">{home.hero.secondaryCta}</Link>
             </div>
           </FadeIn>
-          <FadeInRight delay={0.3} className="hero__visual">
-            <div className="hero__card">
-              <div className="hero__card-line"></div>
-              <div className="hero__card-line"></div>
-              <div className="hero__card-line"></div>
-            </div>
-          </FadeInRight>
         </div>
       </section>
 

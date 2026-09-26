@@ -2,7 +2,7 @@
   "site": {
     "name": "TORSA Consulting",
     "positioning": "Your Technology Journey Partner",
-    "logo": "torsa logo.png",
+    "logo": "torsa-logo.png",
     "primaryAudience": "Executives and decision-makers"
   },
   "navigation": [
@@ -33,9 +33,9 @@
   ],
   "home": {
     "hero": {
-      "title": "Technology that moves your organisation forward",
-      "body": "TORSA Consulting is your technology journey partner. We help organisations across Africa turn business ambition into practical technology strategy, secure governance, effective delivery and sustainable capability.",
-      "primaryCta": "Start a conversation",
+      "title": "Technology Partner that moves your organisation forward",
+      "body": "TORSA Consulting is your technology journey partner. We help organizations turn business ambition into practical technology strategy, secure governance, effective delivery and sustainable capability.",
+      "primaryCta": "Start a Conversation",
       "secondaryCta": "Explore our services"
     },
     "positioning": {
@@ -45,11 +45,11 @@
     "coreServicePillars": [
       "Technology strategy and executive advisory",
       "Enterprise architecture and digital transformation",
-      "AI governance and responsible adoption",
-      "Information security, technology governance and ISO 27001",
-      "DimenServe GRC, TORSA’s proprietary governance, risk and compliance platform",
       "Agile, Lean and product-delivery transformation",
+      "Information security, technology governance and ISO 27001",
       "Bespoke software and digital solution development",
+      "AI governance and responsible adoption",
+      "DimenServe GRC, TORSA’s proprietary governance, risk and compliance platform",
       "Technology operations and IT service management",
       "Professional training and capability development",
       "Specialist resource augmentation and managed delivery teams"
@@ -79,7 +79,7 @@
     "finalCta": {
       "title": "Let’s Start the Conversation",
       "body": "Every organization is at a different point in its technology journey. Whether you are defining a roadmap, strengthening security, digitizing governance, building a solution or scaling your delivery capability, TORSA can help you take the next practical step.",
-      "cta": "Talk to TORSA"
+      "cta": "Start a Conversation"
     }
   },
   "about": {
@@ -149,22 +149,23 @@
       "cta": "Contact Us to start with a Technology Direction Sprint."
     },
     {
-      "slug": "fractional-cio-and-technology-leadership-partner",
-      "title": "Fractional CIO and Technology Leadership Partner",
-      "headline": "Senior technology leadership when you need it",
-      "body": "Not every organisation needs or is ready for a full-time CIO or CTO. TORSA provides experienced, flexible technology leadership for executives, boards and management teams that need strategic guidance and stronger technology oversight.",
-      "supportingBody": "We become a trusted leadership partner, helping you make sound technology decisions while strengthening internal capability.",
+      "slug": "agile-lean-and-product-delivery-transformation",
+      "title": "Agile, Lean and Product Delivery Transformation",
+      "headline": "Improve delivery flow without losing control",
+      "body": "TORSA helps organisations improve how business and technology teams plan, prioritise and deliver work. Our approach combines SAFe, Agile, Lean Portfolio Management and product-delivery practices with governance that works in the real world.",
       "whatWeDo": [
-        "Executive and board technology advisory",
-        "Technology strategy and roadmap oversight",
-        "Technology investment and vendor-management support",
-        "Program and portfolio governance",
-        "Technology-risk and security oversight",
-        "Leadership reporting and decision support",
-        "Interim CIO, CTO or technology-director support"
+        "SAFe and Lean-Agile transformation advisory",
+        "Agile delivery and maturity assessments",
+        "Lean Portfolio Management and value-stream design",
+        "Agile operating-model and delivery-governance design",
+        "ART formation and PI Planning support",
+        "Executive, product-leader and delivery-team coaching",
+        "Product ownership, backlog management and prioritization",
+        "Built-In Quality, DevOps and continual-improvement practices",
+        "Agile Centre of Excellence development"
       ],
-      "outcome": "Confident executive decision-making, stronger technology governance and access to experienced leadership without the overhead of a permanent executive appointment.",
-      "cta": "Contact Us to discuss a flexible technology leadership retainer."
+      "outcome": "Better alignment between strategy and delivery, improved predictability, faster learning and stronger product and programme outcomes.",
+      "cta": "Contact Us to accelerate your Agile and delivery transformation."
     },
     {
       "slug": "information-security-and-iso-27001",
@@ -206,23 +207,22 @@
       "cta": "Contact Us to assess your technology-service maturity."
     },
     {
-      "slug": "agile-lean-and-product-delivery-transformation",
-      "title": "Agile, Lean and Product Delivery Transformation",
-      "headline": "Improve delivery flow without losing control",
-      "body": "TORSA helps organisations improve how business and technology teams plan, prioritise and deliver work. Our approach combines SAFe, Agile, Lean Portfolio Management and product-delivery practices with governance that works in the real world.",
+      "slug": "fractional-cio-and-technology-leadership-partner",
+      "title": "Fractional CIO and Technology Leadership Partner",
+      "headline": "Senior technology leadership when you need it",
+      "body": "Not every organisation needs or is ready for a full-time CIO or CTO. TORSA provides experienced, flexible technology leadership for executives, boards and management teams that need strategic guidance and stronger technology oversight.",
+      "supportingBody": "We become a trusted leadership partner, helping you make sound technology decisions while strengthening internal capability.",
       "whatWeDo": [
-        "SAFe and Lean-Agile transformation advisory",
-        "Agile delivery and maturity assessments",
-        "Lean Portfolio Management and value-stream design",
-        "Agile operating-model and delivery-governance design",
-        "ART formation and PI Planning support",
-        "Executive, product-leader and delivery-team coaching",
-        "Product ownership, backlog management and prioritization",
-        "Built-In Quality, DevOps and continual-improvement practices",
-        "Agile Centre of Excellence development"
+        "Executive and board technology advisory",
+        "Technology strategy and roadmap oversight",
+        "Technology investment and vendor-management support",
+        "Program and portfolio governance",
+        "Technology-risk and security oversight",
+        "Leadership reporting and decision support",
+        "Interim CIO, CTO or technology-director support"
       ],
-      "outcome": "Better alignment between strategy and delivery, improved predictability, faster learning and stronger product and programme outcomes.",
-      "cta": "Contact Us to accelerate your Agile and delivery transformation."
+      "outcome": "Confident executive decision-making, stronger technology governance and access to experienced leadership without the overhead of a permanent executive appointment.",
+      "cta": "Contact Us to discuss a flexible technology leadership retainer."
     },
     {
       "slug": "bespoke-software-and-digital-solution-development",
@@ -244,30 +244,20 @@
       "cta": "Contact Us to talk to us about your next digital solution."
     },
     {
-      "slug": "specialist-resource-augmentation",
-      "title": "Specialist Resource Augmentation",
-      "headline": "Add the capability your team needs",
-      "body": "TORSA provides skilled technology and management professionals for transformation programmes, projects and operational teams. Whether you need one specialist, a delivery squad or a blended TORSA-client team, we help you access capability aligned to your immediate requirement.",
-      "resourceAreas": [
-        "Enterprise and solution architecture",
-        "Program and project management",
-        "Business analysis and product ownership",
-        "Information security, GRC and ISO specialists",
-        "Agile coaches, Scrum Masters and SAFe practitioners",
-        "IT service management and service delivery",
-        "Software development, QA and testing",
-        "Data, cloud, infrastructure and Microsoft 365",
-        "PMO, vendor management and technology procurement"
+      "slug": "strategic-technology-partnerships-and-managed-delivery",
+      "title": "Strategic Technology Partnerships and Managed Delivery",
+      "headline": "Coordinate the right expertise for complex outcomes",
+      "body": "TORSA leads integrated delivery where clients need strategic advisory, specialist technology capability and implementation assurance. We work with selected partners while retaining accountability for alignment, governance and delivery quality.",
+      "whatWeDo": [
+        "Technology partner and solution evaluation",
+        "Multi-vendor program coordination",
+        "Managed implementation oversight",
+        "Cloud, security, ERP, CRM, analytics and digital-workplace delivery through qualified partners",
+        "Solution and vendor assurance",
+        "TORSA-led delivery governance and executive reporting"
       ],
-      "engagementOptions": [
-        "Project-based specialist placement",
-        "Fixed-term resource augmentation",
-        "Part-time advisory support",
-        "Managed delivery squads",
-        "Blended client and TORSA teams"
-      ],
-      "outcome": "Faster access to capable people, flexible delivery capacity and less risk than permanent hiring for time-bound needs.",
-      "cta": "Contact Us to share your capability requirement with TORSA."
+      "outcome": "A coordinated delivery model, one accountable technology partner and greater confidence that implementation remains aligned to business outcomes.",
+      "cta": "Contact Us to discuss your technology implementation requirements."
     },
     {
       "slug": "training-and-professional-capability-development",
@@ -298,7 +288,13 @@
         "Multi-module capability academies"
       ],
       "outcome": "More confident leaders, stronger internal capability and practical methods that improve how teams make decisions and deliver work.",
-      "cta": "Contact Us to enroll in a SAFe training or design a training program for your team."
+      "cta": "Contact Us to enroll in a training that is suitable for you and your team or let us design a training program for your team as per your specific requirements.",
+      "calendar": {
+        "title": "Upcoming Training Calendar",
+        "body": "Our published training calendar is being finalised. If you have a particular programme in mind — for yourself, your team or an enterprise cohort — we will design and schedule it around your requirements.",
+        "note": "Programme dates are confirmed on request and depend on trainer availability and cohort size. Enquire now and we will share the current schedule.",
+        "cta": "Start a Conversation"
+      }
     },
     {
       "slug": "ai-governance-and-responsible-adoption",
@@ -318,20 +314,30 @@
       "cta": "Contact Us to start your AI readiness assessment."
     },
     {
-      "slug": "strategic-technology-partnerships-and-managed-delivery",
-      "title": "Strategic Technology Partnerships and Managed Delivery",
-      "headline": "Coordinate the right expertise for complex outcomes",
-      "body": "TORSA leads integrated delivery where clients need strategic advisory, specialist technology capability and implementation assurance. We work with selected partners while retaining accountability for alignment, governance and delivery quality.",
-      "whatWeDo": [
-        "Technology partner and solution evaluation",
-        "Multi-vendor program coordination",
-        "Managed implementation oversight",
-        "Cloud, security, ERP, CRM, analytics and digital-workplace delivery through qualified partners",
-        "Solution and vendor assurance",
-        "TORSA-led delivery governance and executive reporting"
+      "slug": "specialist-resource-augmentation",
+      "title": "Specialist Resource Augmentation",
+      "headline": "Add the capability your team needs",
+      "body": "TORSA provides skilled technology and management professionals for transformation programmes, projects and operational teams. Whether you need one specialist, a delivery squad or a blended TORSA-client team, we help you access capability aligned to your immediate requirement.",
+      "resourceAreas": [
+        "Enterprise and solution architecture",
+        "Program and project management",
+        "Business analysis and product ownership",
+        "Information security, GRC and ISO specialists",
+        "Agile coaches, Scrum Masters and SAFe practitioners",
+        "IT service management and service delivery",
+        "Software development, QA and testing",
+        "Data, cloud, infrastructure and Microsoft 365",
+        "PMO, vendor management and technology procurement"
       ],
-      "outcome": "A coordinated delivery model, one accountable technology partner and greater confidence that implementation remains aligned to business outcomes.",
-      "cta": "Contact Us to discuss your technology implementation requirements."
+      "engagementOptions": [
+        "Project-based specialist placement",
+        "Fixed-term resource augmentation",
+        "Part-time advisory support",
+        "Managed delivery squads",
+        "Blended client and TORSA teams"
+      ],
+      "outcome": "Faster access to capable people, flexible delivery capacity and less risk than permanent hiring for time-bound needs.",
+      "cta": "Contact Us to share your capability requirement with TORSA."
     }
   ],
   "dimenserve": {

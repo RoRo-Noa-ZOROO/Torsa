@@ -80,12 +80,31 @@ export default function Training() {
         </div>
       </section>
 
+      {trainingService.calendar && (
+        <section className="section">
+          <div className="container">
+            <FadeIn className="training-calendar">
+              <div className="section-label">Schedule</div>
+              <h2 className="section-title">{trainingService.calendar.title}</h2>
+              <p className="section-subtitle">{trainingService.calendar.body}</p>
+              <div className="training-calendar__notice">
+                <span className="training-calendar__notice-mark" aria-hidden="true">i</span>
+                <p className="training-calendar__note">{trainingService.calendar.note}</p>
+              </div>
+              <div className="training-calendar__actions">
+                <Link to="/contact" className="btn btn--primary">{trainingService.calendar.cta}</Link>
+              </div>
+            </FadeIn>
+          </div>
+        </section>
+      )}
+
       <section className="section cta-section">
         <div className="container">
           <FadeIn className="cta-section__inner">
             <h2 className="cta-section__title">Ready to Upskill Your Team?</h2>
             <p className="cta-section__body">{trainingService.cta}</p>
-            <Link to="/contact" className="btn btn--primary btn--lg">Get in Touch</Link>
+            <Link to="/contact" className="btn btn--primary btn--lg">Start a Conversation</Link>
           </FadeIn>
         </div>
       </section>

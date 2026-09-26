@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/((?!assets/|torsa-logo\\.png$).*)", "destination": "/index.html" }
+  ]
+}

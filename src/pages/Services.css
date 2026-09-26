@@ -5,6 +5,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  align-items: stretch;
+}
+
+.services-grid > * {
+  display: flex;
+  min-width: 0;
 }
 
 .service-card {
@@ -16,6 +22,7 @@
   border-radius: var(--radius-md);
   transition: all var(--transition-smooth);
   cursor: pointer;
+  width: 100%;
 }
 
 .service-card:hover {

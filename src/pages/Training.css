@@ -16,6 +16,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
+  align-items: stretch;
+}
+
+.training-topics__grid > * {
+  display: flex;
+  min-width: 0;
 }
 
 .training-topic-card {
@@ -27,6 +33,7 @@
   border: 1px solid var(--color-border-light);
   border-radius: var(--radius-md);
   transition: all var(--transition-smooth);
+  width: 100%;
 }
 
 .training-topic-card:hover {
@@ -47,6 +54,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+  align-items: stretch;
+}
+
+.training-formats__grid > * {
+  display: flex;
+  min-width: 0;
 }
 
 .training-format-card {
@@ -58,6 +71,7 @@
   border: 1px solid var(--color-border-light);
   border-radius: var(--radius-md);
   transition: all var(--transition-smooth);
+  width: 100%;
 }
 
 .training-format-card:hover {
@@ -72,11 +86,62 @@
   color: var(--color-text);
 }
 
+/* ═══════════════════════════════════════════
+   TRAINING CALENDAR
+   ═══════════════════════════════════════════ */
+.training-calendar {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  max-width: 880px;
+}
+
+.training-calendar__notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 24px;
+  padding: 18px 20px;
+  background: var(--color-gold-light);
+  border: 1px solid rgba(184, 138, 68, 0.28);
+  border-radius: var(--radius-md);
+}
+
+.training-calendar__notice-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--color-gold);
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1;
+}
+
+.training-calendar__note {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.65;
+}
+
+.training-calendar__actions {
+  margin-top: 28px;
+}
+
 @media (max-width: 768px) {
   .training-topics__grid {
     grid-template-columns: 1fr;
   }
   .training-formats__grid {
     grid-template-columns: 1fr;
+  }
+  .training-calendar {
+    padding: 28px 24px;
   }
 }

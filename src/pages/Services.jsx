@@ -12,7 +12,7 @@ export default function Services() {
         <div className="container">
           <FadeIn>
             <div className="section-label">Our Services</div>
-            <h1 className="page-hero__title">Technology Advisory, Delivery & Capability</h1>
+            <h1 className="page-hero__title">Technology Capability, Advisory &amp; Delivery</h1>
             <p className="page-hero__subtitle">
               TORSA delivers across the full technology value chain — from strategy and governance through to implementation, training and managed delivery.
             </p>
